@@ -6,9 +6,18 @@ import org.junit.jupiter.api.Test;
 
 class CursoTest {
 
+	Persona p = new Persona("1807508D", "Alvaro", "Martinez");
+	 Curso c = new Curso();
+	
 	@Test
 	void testEliminarAlumno() {
-		fail("Not yet implemented");
+		try {
+            p.setDni("1807508D");
+            assertEquals("1807508D",p.getDni());
+        } catch (Exception e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
 	}
 
 	@Test
