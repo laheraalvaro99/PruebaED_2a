@@ -58,9 +58,11 @@ public class Curso {
 		listaAlumnos= new ArrayList<Persona>();
 	}
 	
-	/*
+	/**
 	 * Documentar y crear test unitario
-	 * */
+	 * @param integer
+	 * @return devuelve el tamaño de la lista de alumnos
+	  */
 	public Integer numeroAlumnos() {return listaAlumnos.size();}
 	
 	
