@@ -47,9 +47,11 @@ public class Persona{
 		}
 	}
 	
-	/*
-	 * Documentar y crear test unitario
-	 * */
+	/**
+	* Documentar y crear test unitario
+	 * @param nombre
+	 * @return nombre devuelve el String introducido en el contructor
+	  */
 	public String getNombre() {
 		return nombre;
 	}
