@@ -32,9 +32,12 @@ public class Persona{
 	}
 	
 	
-	/*
-	 * Documentar y crear test unitario
-	 * */
+	/**
+	* Documentar y crear test unitario
+	 * @param dni 
+	 * @return dni devuelve el String metido 
+	 * @exception caundo el ultimo caracter del String no es una letra, lanza la exception
+	  */
 	public void setDni(String dni) throws Exception {
 		//comprobacion de si el ultimo caracter es una letra
 		if(Character.isLetter(dni.charAt(dni.length()))) {
