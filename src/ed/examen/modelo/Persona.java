@@ -22,9 +22,11 @@ public class Persona{
 		this.apellido1 = apellido1;
 	}
 	
-	/*
+	/**
 	 * Documentar y crear test unitario
-	 * */
+	 * @param dni
+	 * @return dni devuelve el String del dni introducido en el contructor.
+	 */
 	public String getDni() {
 		return dni;
 	}
