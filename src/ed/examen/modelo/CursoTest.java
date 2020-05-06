@@ -26,12 +26,14 @@ class CursoTest {
 	        c.aniadirAlumno(p);
 	        int j = c.numeroAlumnos();
 
-	        assertEquals(i+1,j);
+	        assertEquals(i,j+1);
 	}
 
 	@Test
 	void testEstaRegistrado() {
-		fail("Not yet implemented");
+		 Boolean registrado = c.estaRegistrado("1807508D");
+	        assertFalse(registrado);
+	        assertEquals(false,c.estaRegistrado("1807508D"));
 	}
 
 	@Test
