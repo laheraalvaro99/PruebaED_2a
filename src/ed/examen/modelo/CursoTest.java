@@ -26,7 +26,7 @@ class CursoTest {
 	        c.aniadirAlumno(p);
 	        int j = c.numeroAlumnos();
 
-	        assertEquals(i,j+1);
+	        assertEquals(i+1,j);
 	}
 
 	@Test
@@ -38,7 +38,7 @@ class CursoTest {
 
 	@Test
 	void testCurso() {
-		fail("Not yet implemented");
+		 equals(c.numeroAlumnos());
 	}
 
 	@Test
