@@ -7,9 +7,14 @@ public class Curso {
 	
 	private List<Persona> listaAlumnos;
 
-	/*
+	/**
 	 * Documentar y crear test unitario
-	 * */
+	 * @author Alvaro Martinez Lahera
+	 * @version 1.0 03/05/2020
+	 * @param dni
+	 *  @return dni
+	 *  @exception caundo el String metido es de una longitud diferente a 9, salta la exceptino
+	  */
 	public void eliminarAlumno(String dni) throws Exception {
 		if(dni.length()==9) {//comprobar la longitud del dni
 			listaAlumnos.remove(new Persona(dni, "", "")); //solo hace falta el dni
