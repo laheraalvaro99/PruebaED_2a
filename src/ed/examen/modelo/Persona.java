@@ -56,9 +56,11 @@ public class Persona{
 		return nombre;
 	}
 	
-	/*
+	/**
 	 * Documentar y crear test unitario
-	 * */
+	 * @param nombre
+	 * @return nombre devuelve el parametro metido 
+	  */
 	public void setNombre(String nombre) {
 		this.nombre = nombre;
 	}
