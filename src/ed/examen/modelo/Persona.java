@@ -65,9 +65,11 @@ public class Persona{
 		this.nombre = nombre;
 	}
 	
-	/*
-	 * Documentar y crear test unitario
-	 * */
+	/**
+	* Documentar y crear test unitario
+	 * @param  apellido1
+	 * @return apellido1 devuelve el String introducido en el contructor
+	  */
 	public String getApellido1() {
 		return apellido1;
 	}
