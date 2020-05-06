@@ -32,9 +32,11 @@ public class Curso {
 		listaAlumnos.add(p);
 	}
 	
-	/*
+	/**
 	 * Documentar y crear test unitario
-	 * */
+	 * @param dni
+	 * @return dni caundo el dni puesto es el mismo que hay en la array retorna true, si no, retorna false
+	  */
 	public Boolean estaRegistrado(String dni) {
 		int i =0;
 		Boolean encontrado=false;
