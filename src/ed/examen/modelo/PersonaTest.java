@@ -36,13 +36,13 @@ class PersonaTest {
 
 	@Test
 	void testSetNombre() {
-		 p.setNombre("victor");;
+		 p.setNombre("victor");
 	        assertEquals("victor",p.getNombre());
 	}
 
 	@Test
 	void testGetApellido1() {
-		fail("Not yet implemented");
+	    assertEquals("Martinez",p.getApellido1());
 	}
 
 	@Test
