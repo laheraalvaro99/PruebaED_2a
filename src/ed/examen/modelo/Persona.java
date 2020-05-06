@@ -74,9 +74,11 @@ public class Persona{
 		return apellido1;
 	}
 	
-	/*
-	 * Documentar y crear test unitario
-	 * */
+	/**
+	* Documentar y crear test unitario
+	 * @param apellido1
+	 * @return apellido1 devuelve el parametro metido
+	  */
 	public void setApellido1(String apellido1) {
 		this.apellido1 = apellido1;
 	}
