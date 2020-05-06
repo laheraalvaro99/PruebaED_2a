@@ -8,9 +8,14 @@ public class Persona{
 	
 	public Persona() {}
 	
-	/*
+	/**
 	 * Documentar y crear test unitario
-	 * */
+	 * @author Alvaro Martinez lahera
+	 * @version 1.0 03/05/2020
+	 * @param dni
+	 * @param nombre
+	 * @param apellido
+	 */
 	public Persona(String dni, String nombre, String apellido1) {
 		this.dni = dni;
 		this.nombre = nombre;
