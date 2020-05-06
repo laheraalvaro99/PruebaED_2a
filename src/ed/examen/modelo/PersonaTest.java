@@ -21,7 +21,12 @@ class PersonaTest {
 
 	@Test
 	void testSetDni() {
-		fail("Not yet implemented");
+		try {
+            p.setDni("1807508D");
+        } catch (Exception e) {
+            // TODO Auto-generated catch block
+            assertEquals("1807508A",p.getDni());
+        }
 	}
 
 	@Test
