@@ -49,9 +49,11 @@ public class Curso {
 		return encontrado;
 	}
 	
-	/*
+	/**
 	 * Documentar y crear test unitario
-	 * */
+	 * @param arraylist
+	 * @return creas una array de persona llamada listaAlumnos
+	  */
 	public Curso() {
 		listaAlumnos= new ArrayList<Persona>();
 	}
